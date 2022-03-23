@@ -3,7 +3,7 @@
 $font-1: 'Poppins', sans-serif;
 
 $white: #fff;
-$black: #000;
+$black: #000000;
 $lightgrey: rgb(221, 221, 221) ;
 $color-2: #282c34;
 $color-3: rgba(214, 0, 179, 0.6);
@@ -21,6 +21,16 @@ body {
     color: $color-2;
 }
 
+p {
+    text-align: justify;
+    line-height: 1.625rem;
+    color: rgba(0,0,0,.92);
+}
+
+p + p {
+	margin: 10px 0 0 0;
+}
+
 li {
     list-style: none;
 }
@@ -32,11 +42,25 @@ a:visited {
     color: $color-2;
 }
 
+.strong {
+    font-weight: 700
+}
+
 /*========== GLOBALS ==========*/
+section {
+    display: block;
+}
 .position-relative {
     position: relative;
 }
 
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+} 
 .pt-3 {
     padding-top: 3rem;
 }
@@ -78,5 +102,11 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.flex-start {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 

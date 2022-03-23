@@ -108,7 +108,7 @@
         outline: 0;
         border-bottom-color: #665856;
         &+.input_label {
-            color: #665856;
+            color: $black;
         }
         
     }
@@ -116,7 +116,6 @@
 }
 
 .add-form-card__button {
-    background: $black;
     color: $white;
 }
 

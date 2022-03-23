@@ -19,12 +19,12 @@ const Form = ({isShowing,hideModal, submitAddRestaurant}) => {
             <div className='add-form-card__title'>Ajouter un restaurant</div>
             <div className="add-form-card__input">
               <input className='input_field'
-                defaultValue="Nom du restaurant..." {...register("restaurantNameForm")} 
+                defaultValue="" {...register("restaurantNameForm")} 
                 placeholder="Nom du restaurant"/>
             </div>
             <div className="add-form-card__input">
               <input className='input_field'
-                defaultValue="Adresse du restaurant..." {...register("restaurantAdressForm", { required: true })}
+                defaultValue="" {...register("restaurantAdressForm", { required: true })}
                 placeholder="Adresse du restaurant..." />
             </div>
             {errors.restaurantRequired && <span>This field is required</span>}

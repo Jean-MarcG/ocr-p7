@@ -139,10 +139,10 @@
     line-height: 30px;
     &:focus, &:valid {
         outline: 0;
-        border-bottom-color: $lightgrey;
-        color: $lightgrey;
+        border-bottom-color: $black;
+        color: $black;
         &+.input_label {
-            color: $lightgrey;
+            color: $black;
         }
         
     }

@@ -51,7 +51,7 @@ const Finder = (props) => {
                         </select>
                     </div>
                 </div>
-                <div className="serach-block__right">
+                <div className="search-block__right">
                     <button type="submit" className="search-block__btn">
                         <div className="search-block__btn--icon">
                             <img className="search-block__btn--image" src={ SearchButtonIcon } alt="" />
